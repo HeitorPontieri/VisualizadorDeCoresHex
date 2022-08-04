@@ -2,21 +2,20 @@
 
 function MudarBackgn(){
   
-    const cor = document.getElementById('cor').value.toUpperCase()
+    const nomecor = document.getElementById('cor').value.toUpperCase()
     const body = document.getElementById('body')
     body.style.backgroundColor = `#${cor}`
     
-    
-    if ( cor == 'VERMELHO' ) {
+    if ( nomecor == 'VERMELHO' ) {
         body.style.backgroundColor = '#990000'
     }
-    else if ( cor == 'AZUL' ) {
+    else if ( nomecor == 'AZUL' ) {
         body.style.backgroundColor = '#00008B'
     }
-    else if ( cor == 'AMARELO' ) {
+    else if ( nomecor == 'AMARELO' ) {
         body.style.backgroundColor = '#EEAD2D'
     }
-    else if ( cor == 'VERDE' ) {
+    else if ( nomecor == 'VERDE' ) {
         body.style.backgroundColor = '#006400'
     }
 
